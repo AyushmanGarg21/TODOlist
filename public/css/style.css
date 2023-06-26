@@ -120,3 +120,12 @@ html body{
     background-color: #390e54;
   }
 
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #390e54;
+    color: white;
+    text-align: center;
+  }
