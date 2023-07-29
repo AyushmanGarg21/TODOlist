@@ -7,11 +7,11 @@
             <div class="item">
                 <input type="checkbox">
                 <div class="inputtext">
-                    <p><%= listItems[i] %></p>
+                    <p><%= listItems[i].name %></p>
                 </div>
                 <div class="deleteButton">
                     <form action="/delete" method="post" class="">
-                        <input type="hidden" name="index" value="<%=i%>">
+                        <input type="hidden" name="id" value="<%=listItems[i]._id %>">
                         <button type="submit" name="delete" value=<%=title%>>-</button>
                     </form>
                 </div>
