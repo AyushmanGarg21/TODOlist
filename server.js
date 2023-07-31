@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const e = require("express");
-const uri = 'mongodb+srv://asmgarg74:AsDfGhJkL@cluster0.6nypzlt.mongodb.net/todolistDB?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://userForlist:umnGh9FLJVUl4vcJ@cluster0.6nypzlt.mongodb.net/todolistDB?retryWrites=true&w=majority';
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
